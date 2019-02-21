@@ -15,12 +15,11 @@ Push pull pots arrived. Install them.
 
 * One is push pull for the phase switch.
 * Other is for tone control enable/disable (though it doesn't seem to be noticable if i dial tone all the way over).
-* The old phase change toggle switches are now coil series / paralle switches.
+* The old phase change toggle switches are now coil series / parallel switches. I followed their [diagram](https://www.seymourduncan.com/wp-content/uploads/2016/05/WD_Pushpull_minitoggle_3.pdf)
 
 Apply some linseed oil to the fretboard. Clean it up pretty good. It looks great now.
 
 New strings, Ernie ball super slinky. Sound really great.
-
 
 ## 2019-02-17
 
