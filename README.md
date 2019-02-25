@@ -108,6 +108,7 @@ Trying to strike the low E string the same way each time.
 ## Single Pickup
 
 The main difference here is changing the single coil to double coils
+
 | Pickup | Single coil | Humbucking | Change |
 |:-----|:---------|:------|:--|
 | **Bridge** | ![mode1](doc/mode1.png) | ![mode2](doc/mode2.png) | S7 |
