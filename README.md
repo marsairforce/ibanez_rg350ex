@@ -99,3 +99,30 @@ Some practical tone settings that are similar to other guitars or styles of play
 | Heavy and Loud       | D  | D  | U  | U  | D  | U  | U  | Both pickups in humbuck mode and series |
 
 I will expand the "sounds like a " table as I play with it more.
+
+## Waveform Analysis
+
+Hooking the guitar directly up to an oscilloscope.
+Trying to strike the low E string the same way each time.
+
+## Single Pickup
+
+The main difference here is changing the single coil to double coils
+| Pickup | Single coil | Humbucking | Change |
+|:-----|:---------|:------|:--|
+| **Bridge** | ![mode1](doc/mode1.png) | ![mode2](doc/mode2.png) | S7 |
+| **Neck**   | ![mode3](doc/mode3.png) | ![mode4](doc/mode4.png) | S6 |
+
+## Pickups in Parallel
+
+| Phase | Neck (S) Bridge (S) | Neck (S) Bridge (H) | Neck (H) Bridge (S) | Neck (H) Bridge (H) |
+|:-|:-|:-|:-|:-|
+| **In Phase** | ![mode5](doc/mode5.png) | ![mode6](doc/mode6.png) | ![mode7](doc/mode7.png) | ![mode8](doc/mode8.png) |
+| **Out Phase** | ![mode9](doc/mode9.png) | ![mode10](doc/mode10.png) | ![mode11](doc/mode11.png) | ![mode12](doc/mode12.png) |
+
+## Pickups in Series
+
+| Phase | Neck (S) Bridge (S) | Neck (S) Bridge (H) | Neck (H) Bridge (S) | Neck (H) Bridge (H) |
+|:-|:-|:-|:-|:-|
+| **In Phase** | ![mode13](doc/mode13.png) | ![mode14](doc/mode14.png) | ![mode15](doc/mode15.png) | ![mode16](doc/mode16.png) |
+| **Out Phase** | ![mode17](doc/mode17.png) | ![mode18](doc/mode18.png) | ![mode19](doc/mode19.png) | ![mode12](doc/mode20.png) |
