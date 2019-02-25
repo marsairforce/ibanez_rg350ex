@@ -41,7 +41,17 @@ The eigth switch is a cut out for the tone circuit.
 
 Table 1 below explains what each switch does.
 
-![table 1](doc/switch_function.png)
+
+| Switch | Description                | Up | Down |
+|:-------|:---------------------------|:---|:-----|
+| S1     | Phase invert bridge pickup | Neck pickup phase is inverted from the bridge pickup | Neck pickup phase is the same as the bridge pickup |
+| S2     | Neck pickup high side      | Connected to bridge low side | Connected to output
+| S3     | Neck pickup low side       | Connected to bridge high side | Connected to ground
+| S4     | Bridge pickup high side    | Connected to neck pickup low side | Connected to output |
+| S5     | Bridge pickup low side     | Connected to neck pickup high side | Connected to ground |
+| S6     | Neck coil split            | Nck pickup in series (humbuck) mode | Neck pickup in single (parallel) coil mode |
+| S7     | Bridge coil split          | Bridge pickup in series (humbuck) mode | Bridge pickup in single (parallel) coil mode |
+| S8     | Tone control               | Disable tone stack | Tone stack enabled |
 
 And table 2 below explains the modes
 
