@@ -16,6 +16,14 @@ But for now waiting for the circuit boards to be made and the parts to come in.
 
 Preamp schematic and board is a folder in this project.
 
+## 2019-04-28
+
+Ordered locking tuners. I was tired with the A string tuner having so much backlash. Just new machine heads would be ok, But these were on sale on Amazon. I am stil mad at amazon for their shipping and wanting you to sign up for amazon prime thing they try to bully me into having it come sooner if I sign up, but then if I don't it takes like a lot longer conspiciously.  But it was on sale.
+
+Had to drill small hole. I measured and drilled the hole and then found the template on the packaging. Doh. Oh well. They look good and straight.
+
+I didn't test them out becuase the guitar is currently all apart waiting for the new pick guard to come in.
+
 ## 2019-04-22
 
 I tried cutting the sheet metal I picked up. But it was too thin and was bending and getting scratched up from the saw vibrating over it.  I am sure I could file the edges to be smooth, but the amount of bending was likely not easy to fix. The metal is just too thin. It is like furnace pipe material and bends and looks bad.
