@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name ibanez)(type Legacy)(uri /home/thein/workspace/ibanez_rg350ex/wiring/ibanez.lib)(options "")(descr ""))
+  (lib (name ibanez-rescue)(type Legacy)(uri ${KIPRJMOD}/ibanez-rescue.lib)(options "")(descr ""))
 )

@@ -226,7 +226,7 @@ Connection ~ 5000 5500
 Wire Wire Line
 	5000 5500 5000 5950
 $Comp
-L ibanez:R_POT_DPDT RV8
+L ibanez-rescue:R_POT_DPDT-ibanez RV8
 U 1 1 5C6DAB04
 P 6550 3600
 F 0 "RV8" H 6550 2818 50  0000 C CNN
@@ -400,7 +400,7 @@ Wire Wire Line
 Connection ~ 3000 4200
 Connection ~ 3000 5400
 Wire Wire Line
-	5200 2000 5200 4100
+	5200 2000 5200 3800
 Wire Wire Line
 	6500 2150 6500 2500
 Wire Wire Line
@@ -486,4 +486,9 @@ Wire Notes Line
 	2900 5300 2400 5300
 Wire Notes Line
 	2400 5300 2400 4300
+Wire Wire Line
+	6350 3800 5200 3800
+Connection ~ 5200 3800
+Wire Wire Line
+	5200 3800 5200 4100
 $EndSCHEMATC

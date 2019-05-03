@@ -139,11 +139,11 @@ X C 6 200 -100 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
-# ibanez_R_POT_DPDT
+# ibanez-rescue_R_POT_DPDT-ibanez
 #
-DEF ibanez_R_POT_DPDT RV 0 40 Y N 1 F N
+DEF ibanez-rescue_R_POT_DPDT-ibanez RV 0 40 Y N 1 F N
 F0 "RV" -200 150 50 H V C CNN
-F1 "ibanez_R_POT_DPDT" 200 150 50 H V C CNN
+F1 "ibanez-rescue_R_POT_DPDT-ibanez" 200 150 50 H V C CNN
 F2 "" -50 250 50 V I C CNN
 F3 "" -50 250 50 V I C CNN
 $FPLIST
