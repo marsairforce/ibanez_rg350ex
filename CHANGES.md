@@ -1,5 +1,18 @@
 # Change log
 
+## 2019-05-15
+
+The circuit boards for the boost circuit came in the mail. Assemble these. Put it into the guitar. Build the power junction box pedal.
+
+So far testing it seems to work well as far as a clean boost goes. Will continue to do analysis for how differnt it sounds. Or what it can do to kick up other pedals. I am able to turn the clean channel of my H&K amp crunchy with it. So it is already a lot of possibilities. Did some quick on/off tests by playing a string and then having Reaper record the track. Then look at the waveform. I can see some higher frequency components in the signal. And the sustain seems to be a bit longer and not taper off as quickly.
+
+## 2019-05-08
+
+The pick guards were ready and the Floyd rose trem came in. Spend the evening assembling the guitar. The holes on the pick guard did not exactly line up with where the wood nuts. I blame the imprecise wood and how I drilled the holes. The hardest part was changing the bridge posts. Get it all back together. It feels nice and new and different. I was thinking to wait until the circuit boards for the preamp came in but I wanted to try it out.
+
+Sounds different too with 10-46 strings on it too. Took a few attempts to set it up and adjust the action. I was able to remove the shim I put in the neck before.
+Still feels a bit high but it is better than it was I think.
+
 ## 2019-05-01
 
 Took apart a MXR clean boost pedal. Was thinking, I could just build this into the guitar. So that there is the low impedence output to not lose high ends.

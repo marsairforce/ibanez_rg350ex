@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:preamp-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,7 +52,7 @@ L Device:R R2
 U 1 1 5CCA59D1
 P 3250 3200
 F 0 "R2" H 3320 3246 50  0000 L CNN
-F 1 "100K" H 3320 3155 50  0000 L CNN
+F 1 "10K" H 3320 3155 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 3200 50  0001 C CNN
 F 3 "~" H 3250 3200 50  0001 C CNN
 	1    3250 3200
@@ -62,7 +63,7 @@ L Device:R R3
 U 1 1 5CCA5B1C
 P 3250 3600
 F 0 "R3" H 3320 3646 50  0000 L CNN
-F 1 "100K" H 3320 3555 50  0000 L CNN
+F 1 "10K" H 3320 3555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3180 3600 50  0001 C CNN
 F 3 "~" H 3250 3600 50  0001 C CNN
 	1    3250 3600
@@ -359,10 +360,10 @@ Wire Wire Line
 	5900 4000 6100 4000
 Connection ~ 6500 4000
 $Comp
-L Connector:Conn_01x01_Male J1
+L Connector:Conn_01x01_Male J1(blue)
 U 1 1 5CCB53DC
 P 1850 2450
-F 0 "J1" H 1956 2628 50  0000 C CNN
+F 0 "J1(blue)" H 1956 2628 50  0000 C CNN
 F 1 "From Volume Knob" H 1956 2537 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 1850 2450 50  0001 C CNN
 F 3 "~" H 1850 2450 50  0001 C CNN
@@ -392,10 +393,10 @@ Wire Wire Line
 Wire Wire Line
 	5250 4100 5250 4000
 $Comp
-L Connector:Conn_01x01_Male J4
+L Connector:Conn_01x01_Male J4(green)
 U 1 1 5CCC2FCD
 P 6100 3450
-F 0 "J4" V 6160 3490 50  0000 L CNN
+F 0 "J4(green)" V 6160 3490 50  0000 L CNN
 F 1 "RV1" V 6251 3490 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6100 3450 50  0001 C CNN
 F 3 "~" H 6100 3450 50  0001 C CNN
@@ -406,10 +407,10 @@ Connection ~ 6100 3650
 Wire Wire Line
 	6100 3650 6500 3650
 $Comp
-L Connector:Conn_01x01_Male J5
+L Connector:Conn_01x01_Male J5(green)
 U 1 1 5CCC3148
 P 6100 4200
-F 0 "J5" V 6253 4113 50  0000 R CNN
+F 0 "J5(green)" V 6253 4113 50  0000 R CNN
 F 1 "RV2" V 6162 4113 50  0000 R CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6100 4200 50  0001 C CNN
 F 3 "~" H 6100 4200 50  0001 C CNN
@@ -420,10 +421,10 @@ Connection ~ 6100 4000
 Wire Wire Line
 	6100 4000 6500 4000
 $Comp
-L Connector:Conn_01x01_Male J7
+L Connector:Conn_01x01_Male J7(white)
 U 1 1 5CCC343C
 P 6250 2750
-F 0 "J7" V 6403 2662 50  0000 R CNN
+F 0 "J7(white)" V 6200 2650 50  0000 R CNN
 F 1 "Audio Out" V 6312 2662 50  0000 R CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6250 2750 50  0001 C CNN
 F 3 "~" H 6250 2750 50  0001 C CNN
@@ -434,10 +435,10 @@ Connection ~ 6250 2550
 Wire Wire Line
 	6250 2550 6400 2550
 $Comp
-L Connector:Conn_01x01_Male J3
+L Connector:Conn_01x01_Male J3(blue)
 U 1 1 5CCC35AF
 P 6100 1750
-F 0 "J3" V 6160 1790 50  0000 L CNN
+F 0 "J3(blue)" V 6160 1790 50  0000 L CNN
 F 1 "Bypass SW" V 6251 1790 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6100 1750 50  0001 C CNN
 F 3 "~" H 6100 1750 50  0001 C CNN
@@ -448,10 +449,10 @@ Connection ~ 6100 1950
 Wire Wire Line
 	6100 1950 2800 1950
 $Comp
-L Connector:Conn_01x01_Male J6
+L Connector:Conn_01x01_Male J6(red)
 U 1 1 5CCC36A9
 P 6100 4500
-F 0 "J6" V 6160 4540 50  0000 L CNN
+F 0 "J6(red)" V 6160 4540 50  0000 L CNN
 F 1 "9V" V 6251 4540 50  0000 L CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 6100 4500 50  0001 C CNN
 F 3 "~" H 6100 4500 50  0001 C CNN
@@ -461,10 +462,10 @@ $EndComp
 Wire Wire Line
 	6100 4700 6950 4700
 $Comp
-L Connector:Conn_01x01_Male J2
+L Connector:Conn_01x01_Male J2(black)
 U 1 1 5CCC37D0
 P 5050 4000
-F 0 "J2" H 5156 4178 50  0000 C CNN
+F 0 "J2(black)" H 4950 3950 50  0000 C CNN
 F 1 "GND" H 5156 4087 50  0000 C CNN
 F 2 "Connector_Pin:Pin_D1.0mm_L10.0mm" H 5050 4000 50  0001 C CNN
 F 3 "~" H 5050 4000 50  0001 C CNN
