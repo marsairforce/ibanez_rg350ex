@@ -2,7 +2,7 @@
 
 An Ibanez RG350EX with Seymour Duncan Invader pickups and custom wiring.
 
-![guitar](doc/v2_configuration.jpg)
+![guitar](photos/IMG_5855.jpg)
 
 These switches allow for me to have 20 different configurations of the two pickups
 
@@ -41,7 +41,6 @@ The eigth switch is a cut out for the tone circuit.
 
 Table 1 below explains what each switch does.
 
-
 | Switch | Description                | Up | Down |
 |:-------|:---------------------------|:---|:-----|
 | S1     | Phase invert bridge pickup | Neck pickup phase is inverted from the bridge pickup | Neck pickup phase is the same as the bridge pickup |
@@ -51,7 +50,6 @@ Table 1 below explains what each switch does.
 | S5     | Bridge pickup low side     | Connected to neck pickup high side | Connected to ground |
 | S6     | Neck coil split            | Nck pickup in series (humbuck) mode | Neck pickup in single (parallel) coil mode |
 | S7     | Bridge coil split          | Bridge pickup in series (humbuck) mode | Bridge pickup in single (parallel) coil mode |
-| S8     | Tone control               | Disable tone stack | Tone stack enabled |
 
 And table 2 below explains the modes
 
@@ -74,6 +72,7 @@ For those interested.
 The function of series/parallel for the pickups is done with S2, S3, S4, and S5. These are DPDT toggle switches, but I am only using 1 pole on each switch.
 
 > This was just my idea for how to make two pick ups be
+>
 > * none
 > * just one
 > * just the other
@@ -127,3 +126,39 @@ The main difference here is changing the single coil to double coils
 |:-|:-|:-|:-|:-|
 | **In Phase** | ![mode13](doc/mode13.png) | ![mode14](doc/mode14.png) | ![mode15](doc/mode15.png) | ![mode16](doc/mode16.png) |
 | **Out Phase** | ![mode17](doc/mode17.png) | ![mode18](doc/mode18.png) | ![mode19](doc/mode19.png) | ![mode12](doc/mode20.png) |
+
+## Custom Aluminum Pick Guard
+
+I removed the middle pick up. I did not have any use for it. This left a hole where the pick up used to be. I tried covering it with shiny furnace pipe tape. And later a piece of a CD-ROM. But no matter what i did it looked pretty Ghetto.
+
+If I could have built a sustainer pickup it would have fit nicely into the slot. But I have not been able to overcome several technical challenges of making this work. Mostly the magnetic fields from the coil in middle position interfere with the other pickups.
+
+So I took the plastic pick guard to a water jet cutting place in town and had them make me a pick guard out of 1/8" aluminum. It had the same holes as the switch configurations from before too.
+
+I attached the pick guard using some hex cap machine bolts that attach to wood screw ancher nuts in the body. I had to drill out a larger hole to screw the nuts into the body.
+
+I liked the effect so much I went and modified my Fender Squire bass to be the same as well. I don't have a project for the bass, it just follows the evolution of the guitar.
+
+The result is something I think is very visually stunning but also provides a bit more of a resonance to the sound of the guitar, I think anyway.
+
+## Clean Boost Circuit
+
+I built a clean boost based on the TL071 op-amp inside the guitar.
+
+It is powered by a stereo jack. The ring connector on the TRS connector can supply 9V into the guitar. An internal DC-DC converter steps it up to 12V. The gain is fixed to be just about 1:1.
+
+The motivation here is not to produce a louder output, but to convert the high impedence from the pickups into a low impedence signal to drive over the patchcord.
+
+Even with the 20 foot patch cord I regularly use I can slightly hear a difference with the tonal quality and the sustain of some higher pitched notes when using the clean boost vs not using the clean boost.
+
+The clean boost circuit facilitated upgrading the jack connector. I got a really good Switchcraft model. Which randomly did not come with the mounting hardware. A trip to the hardware store found some more special ass nut to fit it. And then more drilling to make it fit. The jack now holds the patch cord very well. And being fully shielded is less interface to pick up noise like the old one was.
+
+## Locking tuners
+
+I replaced the stock tuners with locking tuners. These allow me to wind the strings a little easier without needing to wind the string around a bunch of times. I don't really need them with the locking nut, but I was curious what they were about. I also wanted to replace the standard tuners because several of them had a lot of random backlash and that made tuning somewhat challenging.
+
+## Actual Floyd Rose Trem
+
+I got tired of the shitty edge trem. The tremmolo bar was so loose it was not even useable. The shitty zinc block under it was not very tonally pleasing to me. And the edges of the metal of the bridge against the posts were all shitty and worn in. Because its a shitty bridge.
+
+The actual floyd rose trem has a good feel to it, I think. I got the fat brass sustain block to go with it, so more of a different sound from that as well. I first ordered the 37mm block, but it was just a bit too big to allow me to ge the back cover onto the guitar, and would touch your body as you played. I later ordered a 32mm block.
